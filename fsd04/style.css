@@ -1,0 +1,78 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: cornsilk; /* Change the background color to red */
+}
+
+/* Style the main title */
+.main-title {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the container for the form */
+.container {
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form */
+#registrationForm {
+    margin: 20px;
+}
+
+/* Style labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style text input and password input */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Rounded text input boxes */
+}
+
+/* Style error messages */
+.error {
+    color: red;
+}
+
+/* Style the submit button */
+#button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px; /* Rounded button */
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Hover and focus styles for the button */
+#button:hover,
+#button:focus {
+    background-color: #0056b3;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
